@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import logo from "../../../assets/logo.png";
 import { Link } from "react-scroll";
+import users from "../../../users.json"
+import { useParams } from "react-router-dom";
 
 const navItems = [
   { id: 1, name: "Home", url: "introduction" },
@@ -16,6 +18,8 @@ const handleMenuClick = () => {
     document.activeElement.blur();
   }
 };
+
+
 
 const menu = navItems.map((item) => (
   <li key={item.id} onMouseDown={(e) => e.preventDefault()}>
@@ -49,6 +53,10 @@ const NavBar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+   const { slug } = useParams();
+  const user = users.find((u) => u.slug === slug);
+  if (!user) return <p>User not found</p>;
 
   return (
     <div
@@ -94,7 +102,7 @@ const NavBar = () => {
           >
             <img src={logo} className="h-8 sm:h-14 rounded-2xl" alt="logo" />
             <p className="text-2xl sm:text-[32px] my-auto ms-[12px] font-semibold">
-              Brooklyn
+              {user.profile.SiteName}
             </p>
           </Link>
         </div>

@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "slug": "leanne-graham",
+
+    "profile": {
+      "name": "Leanne Graham",
+      "SiteName": "SiteName",
+      "yearsofexperience":"4",
+      "noOfProjects":"8",
+      "happyClients":"12",
+      "username": "Bret",
+      "email": "Sincere@april.biz",
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "profession": "UI/UX Designer",
+      "summary": "I'm a Freelance UI/UX Designer and Developer based in London, England. I strives to build immersive and beautiful web applications through carefully crafted code and user-centric design..",
+      "avatar": "/images/person.png"
+    },
+
+    "address": {
+      "street": "Kulas Light",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874"
+    },
+
+    "services": [
+      {
+        "id": 1,
+        "title": "UI Design",
+        "description": "Design meets function in every pixel."
+      },
+      {
+        "id": 2,
+        "title": "Analyze",
+        "description": "Crafting clean, thoughtful interfaces."
+      }
+    ],
+
+    "experience": [
+      {
+        "id": 1,
+        "title": "Graphics Designer",
+        "company": "ABC Company",
+        "startDate": "2018-12",
+        "endDate": "2019-10",
+        "description": "Worked as a graphics designer."
+      },
+      {
+        "id": 2,
+        "title": "UI/UX Designer",
+        "company": "XYZ Company",
+        "startDate": "2020-12",
+        "endDate": "2024-10",
+        "description": "Worked as a UI/UX designer."
+      }
+    ],
+
+    "portfolio": [
+      {
+        "id": 1,
+        "title": "Edo FA Design",
+        "stack": "Graphics Design",
+        "description": "High quality graphics.",
+        "image": "/images/project1.png",
+        "liveUrl": "https://example.com",
+        "githubUrl": "https://github.com/user/project"
+      }
+    ],
+
+    "socials": {
+      "linkedin": "",
+      "twitter": "",
+      "github": ""
+    }
+  }
+]

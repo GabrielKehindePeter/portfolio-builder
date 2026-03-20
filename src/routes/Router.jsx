@@ -24,7 +24,7 @@ export const router = createBrowserRouter(
           element: <Home />,
         },
         {
-          path: "/:id",
+          path: "/:slug",
           element: <Home />,
           // element: (
           //   <Suspense fallback={<Loading />}>
