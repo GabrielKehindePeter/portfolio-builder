@@ -2,8 +2,16 @@ import person from "../../assets/images/person2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import SocialMedia from "../common/socialMedia/SocialMedia";
+import users from "../../users.json"
+import { useParams } from "react-router-dom";
 
 const Profile = () => {
+
+    const { slug } = useParams();
+  const user = users.find((u) => u.slug === slug);
+  if (!user) return <p>User not found</p>;
+
+
   return (
     <div
       className={`relative mx-4 xxl:mx-0.5 -bottom-20 lg:-bottom-28 z-10 rounded-2xl bg-white drop-shadow-2xl max-xl:mb-5 shadow-white xl:p-28 lg:p-20 md:p-16 sm:p-10 p-4`}
@@ -33,15 +41,13 @@ const Profile = () => {
           <h2
             className={`text-2xl xxs:text-3xl sm:text-4xl lg:text-[38px] text-[min(24px,38px)] max-md:text-center font-semibold mb-8`}
           >
-            I am Professional User Experience Designer
+            I am Professional {user.profile.profession}
           </h2>
           <div
             className={`text-xs xs:text-[16px] lg:text-lg font-normal max-md:text-center text-gray-600`}
           >
             <p className={``}>
-              I design and develop services for customers specializing creating
-              stylish, modern websites, web services and online stores. My
-              passion is to design digital user experiences.
+             {user.profile.summary}
             </p>
             <p className="mt-3">
               I design and develop services for customers specializing creating
