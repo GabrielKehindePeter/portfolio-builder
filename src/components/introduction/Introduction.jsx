@@ -1,4 +1,4 @@
-import person from "../../assets/images/person.png";
+
 import "./introduction.css";
 import { useParams } from "react-router-dom";
 
@@ -11,6 +11,7 @@ const Introduction = () => {
   const user = users.find((u) => u.slug === slug);
   if (!user) return <p>User not found</p>;
 
+// import person from {`../../assets/images/${user.profile.image}`};
   return (
     <div
       className="flex max-lg:flex-col-reverse sm:justify-between pt-10 lg:pt-31.5 lg:mb-27.5 max-xl:gap-2 p-2 max-xxl:px-4"
@@ -68,7 +69,8 @@ const Introduction = () => {
       >
         <img
           className={`shadow-2xl shadow-gray-200 w-full h-full absolute bottom-0 object-cover bg-white rounded-3xl`}
-          src={person}
+          // src={person}
+          src={`../../assets/images/${user.profile.image}`} 
           alt="person"
         />
       </div>

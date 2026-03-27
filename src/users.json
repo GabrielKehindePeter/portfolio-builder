@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "slug": "leanne-graham",
+    "slug": "kehinde",
 
     "profile": {
-      "name": "Leanne Graham",
-      "SiteName": "SiteName",
+      "name": "Kehinde Gabriel",
+      "SiteName": "Gabriel",
       "yearsofexperience":"4",
       "noOfProjects":"8",
       "happyClients":"12",
@@ -15,7 +15,7 @@
       "website": "hildegard.org",
       "profession": "UI/UX Designer",
       "summary": "I'm a Freelance UI/UX Designer and Developer based in London, England. I strives to build immersive and beautiful web applications through carefully crafted code and user-centric design..",
-      "avatar": "/images/person.png"
+      "image": "person.png"
     },
 
     "address": {

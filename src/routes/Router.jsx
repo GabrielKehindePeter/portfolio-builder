@@ -7,41 +7,32 @@ const Main = lazy(() => import("../layouts/Main"));
 const PortfolioDetails = lazy(() => import("../pages/PortfolioDetails"));
 const NotFound = lazy(() => import("../pages/NotFound"));
 
-const repoName = import.meta.env.VITE_REPO_NAME || "";
+const withSuspense = (Component) => (
+  <Suspense fallback={<Loading />}>
+    <Component />
+  </Suspense>
+);
 
 export const router = createBrowserRouter(
   [
     {
-      path: `/`,
-      element: (
-        <Suspense fallback={<Loading />}>
-          <Main />
-        </Suspense>
-      ),
+      path: "/:slug",
+      element: withSuspense(Main),
       children: [
         {
-          path: "/",
-          element: <Home />,
+          path: "/:slug",
+          element: withSuspense(Home),
         },
         {
           path: "/:slug",
-          element: <Home />,
-          // element: (
-          //   <Suspense fallback={<Loading />}>
-          //     <PortfolioDetails />
-          //   </Suspense>
-          // ),
+          element: withSuspense(PortfolioDetails),
         },
         {
           path: "*",
-          element: (
-            <Suspense fallback={<Loading />}>
-              <NotFound />
-            </Suspense>
-          ),
+          element: withSuspense(NotFound),
         },
       ],
     },
   ],
-  { basename: `/${repoName}` }
+  { basename: "/" }
 );
