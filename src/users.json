@@ -16,7 +16,7 @@
       "profession": "UI/UX Designer",
       "skillSummary": "I blend clean design with efficient code to build engaging, user-friendly web experiences that stand out I blend clean design with efficient code to build engaging, user-friendly web experiences that stand out.",
       "summary": "I'm a Freelance UI/UX Designer and Developer based in London, England. I strives to build immersive and beautiful web applications through carefully crafted code and user-centric design..",
-      "image": "person.png"
+      "image": "person.jpeg"
     },
 
     "address": {
@@ -25,15 +25,25 @@
       "zipcode": "92998-3874"
     },
 
-    "services": [
+    "skills": [
       {
         "id": 1,
-        "title": "UI Design",
+        "title": "UI Designer",
         "description": "Design meets function in every pixel."
       },
       {
         "id": 2,
-        "title": "Analyze",
+        "title": "Analyzer",
+        "description": "Crafting clean, thoughtful interfaces."
+      },
+      {
+        "id": 3,
+        "title": "UI/UX Designer",
+        "description": "Crafting clean, thoughtful interfaces."
+      },
+      {
+        "id": 4,
+        "title": "Content Creator",
         "description": "Crafting clean, thoughtful interfaces."
       }
     ],

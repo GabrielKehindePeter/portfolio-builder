@@ -23,7 +23,7 @@ const Profile = () => {
           <div className="max-w-106 h-117 object-fill overflow-hidden rounded-xl">
             <img
               className="bg-soft-white h-[120%] object-cover"
-              src={person}
+              src={`../../assets/images/${user.profile.image}`} 
               alt=""
             />
           </div>
