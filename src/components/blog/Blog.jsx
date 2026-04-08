@@ -80,10 +80,9 @@ const Blog = () => {
   return (
     <div className="content py-25 px-2 relative" id="blog">
       <div className="max-w-135 text-center mx-auto pb-17.5">
-        <p className="section-title pb-6">Blog</p>
+        <p className="section-title pb-6">Previous Jobs</p>
         <p className="text-xs xs:text-[16px] md:text-lg text-gray-400">
-          Check out my recent blog posts where I share insights on design,
-          development, and the latest industry trends.
+         Find below are some of my previous jobs
         </p>
       </div>
       <Swiper

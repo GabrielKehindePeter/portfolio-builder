@@ -71,7 +71,7 @@ const Introduction = () => {
           className={`shadow-2xl shadow-gray-200 w-full h-full absolute bottom-0 object-cover bg-white rounded-3xl`}
           // src={person}
           src={`../../assets/images/${user.profile.image}`} 
-          alt="person"
+          alt="person" style={{width:'500px', }}
         />
       </div>
     </div>

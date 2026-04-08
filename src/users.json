@@ -84,5 +84,96 @@
       "twitter": "",
       "github": ""
     }
+  },
+
+
+
+
+
+  {
+    "id": 1,
+    "slug": "ruth",
+
+    "profile": {
+      "name": "Ruth Oguchuku",
+      "SiteName": "Ruth Portfolio",
+      "yearsofexperience":"4",
+      "noOfProjects":"3",
+      "happyClients":"7",
+      "username": "Ruth",
+      "email": "ruth@gmail.com",
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "profession": "UI/UX Designer",
+      "skillSummary": "I blend clean design with efficient code to build engaging, user-friendly web experiences that stand out I blend clean design with efficient code to build engaging, user-friendly web experiences that stand out.",
+      "summary": "I'm a Freelance UI/UX Designer and Developer based in London, England. I strives to build immersive and beautiful web applications through carefully crafted code and user-centric design..",
+      "image": "ruth.jpg"
+    },
+
+    "address": {
+      "street": "Kulas Light",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874"
+    },
+
+    "skills": [
+      {
+        "id": 1,
+        "title": "UI Designer",
+        "description": "Design meets function in every pixel."
+      },
+      {
+        "id": 2,
+        "title": "Analyzer",
+        "description": "Crafting clean, thoughtful interfaces."
+      },
+      {
+        "id": 3,
+        "title": "UI/UX Designer",
+        "description": "Crafting clean, thoughtful interfaces."
+      },
+      {
+        "id": 4,
+        "title": "Content Creator",
+        "description": "Crafting clean, thoughtful interfaces."
+      }
+    ],
+
+    "experience": [
+      {
+        "id": 1,
+        "title": "Graphics Designer",
+        "company": "ABC Company",
+        "startDate": "2018-12",
+        "endDate": "2019-10",
+        "description": "Worked as a graphics designer."
+      },
+      {
+        "id": 2,
+        "title": "UI/UX Designer",
+        "company": "XYZ Company",
+        "startDate": "2020-12",
+        "endDate": "2024-10",
+        "description": "Worked as a UI/UX designer."
+      }
+    ],
+
+    "portfolio": [
+      {
+        "id": 1,
+        "title": "Edo FA Design",
+        "stack": "Graphics Design",
+        "description": "High quality graphics.",
+        "image": "/images/project1.png",
+        "liveUrl": "https://example.com",
+        "githubUrl": "https://github.com/user/project"
+      }
+    ],
+
+    "socials": {
+      "linkedin": "",
+      "twitter": "",
+      "github": ""
+    }
   }
 ]
