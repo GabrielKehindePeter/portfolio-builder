@@ -7,10 +7,10 @@ import { useParams } from "react-router-dom";
 const navItems = [
   { id: 1, name: "Home", url: "introduction" },
   { id: 2, name: "About", url: "profile" },
-  { id: 3, name: "Experience", url: "work-process" },
+  { id: 3, name: "Skills", url: "work-process" },
   { id: 4, name: "Portfolio", url: "portfolio" },
   // { id: 5, name: "Blog", url: "blog" },
-  { id: 6, name: "Services", url: "services" },
+  { id: 6, name: "Work Experience", url: "services" },
 ];
 
 const handleMenuClick = () => {

@@ -1,4 +1,6 @@
 import Roles from "./Roles";
+import { useParams } from "react-router-dom";
+import users from "../../users.json"
 
 const rolesData = [
   {
@@ -22,6 +24,12 @@ const rolesData = [
 ];
 
 const Profession = () => {
+
+   const { slug } = useParams();
+  const user = users.find((u) => u.slug === slug);
+  if (!user) return <p>User not found</p>;
+
+
   return (
     <div
       className="content grid md:grid-cols-2 max-xxl:px-4 xxl:px-2 py-10 md:py-15 lg:py-37.5"
@@ -31,9 +39,7 @@ const Profession = () => {
         <p className="section-title max-md:text-center">What I do?</p>
         <div className="mt-6 text-[14px]">
           <p className="text-xs sm:text-lg font-normal text-gray-400 mb-4">
-            I specialize in designing user experiences, crafting engaging
-            interfaces, and building robust web applications that deliver value
-            and usability.
+             {user.profile.name}
           </p>
           <p className="text-xs sm:text-lg font-normal text-gray-400">
             My approach combines creativity and technical expertise to deliver
