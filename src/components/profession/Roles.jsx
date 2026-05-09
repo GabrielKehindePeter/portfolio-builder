@@ -23,11 +23,11 @@ const Roles = ({ role }) => {
         <p className="text-xl sm:text-2xl font-semibold text-gray-900 pb-4">
           {role?.title}
         </p>
-        <p className="text-xl sm:text-2xl font-semibold text-gray-900 pb-4">
-          {role?.company}
+        <p className="text-lg sm:text-xl font-semibold text-gray-900 pb-4">
+          @{role?.company}
         </p>
         <p className="text-sm sm:text-sm font-semibold text-gray-900 pb-4">
-          Start Date: {role?.startDate} &nbsp;&nbsp;&nbsp; End Date: {role?.endDate}
+          <span className="text-green-600">Start Date: {role?.startDate}</span> &nbsp;&nbsp;&nbsp; <span className="text-red-500">End Date: {role?.endDate}</span>
         </p>
         <p className="text-[13px] sm:text-[16px] font-normal text-gray-700">
           {role?.description}

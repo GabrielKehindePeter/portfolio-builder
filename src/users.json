@@ -51,7 +51,7 @@
     "experience": [
       {
         "id": 1,
-        "title": "Graphics Designer",
+        "title": "Software Developer",
         "company": "ABC Company",
         "startDate": "2018-12",
         "endDate": "2019-10",
@@ -59,7 +59,7 @@
       },
       {
         "id": 2,
-        "title": "UI/UX Designer",
+        "title": "DB Admin",
         "company": "TellyScreen",
         "startDate": "2020-12",
         "endDate": "2024-10",

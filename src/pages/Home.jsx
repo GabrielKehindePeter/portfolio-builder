@@ -36,8 +36,8 @@ const Home = () => {
       <div className="bg-soft-white">
         <Profession />
       </div>
-      <HappyClients />
-      <Testimonial />
+      {/* <HappyClients /> */}
+      {/* <Testimonial /> */}
       <Contact />
     </div>
   );
