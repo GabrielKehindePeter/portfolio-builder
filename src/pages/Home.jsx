@@ -23,9 +23,10 @@ const Home = () => {
       <div className="bg-soft-white pt-30">
         <WorkProcess />
       </div>
-      <div className="blog-background">
+      {/* previous jobs */}
+      {/* <div className="blog-background">
         <Blog />
-      </div>
+      </div> */}
       {/* <Portfolio /> */}
       <div className="bg-gray-900">
         <WorkTogether />

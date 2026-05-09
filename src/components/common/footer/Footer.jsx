@@ -4,10 +4,8 @@ import logo from "../../../assets/logo.png";
 const navItems = [
   { id: 1, name: "Home", url: "Home" },
   { id: 2, name: "About", url: "About" },
-  { id: 3, name: "Process", url: "Process" },
-  { id: 4, name: "Portfolio", url: "Portfolio" },
-  { id: 5, name: "Blog", url: "Blog" },
-  { id: 6, name: "Services", url: "Services" },
+  { id: 4, name: "Skills", url: "Portfolio" },
+  { id: 6, name: "Work Experience", url: "experience" },
   { id: 7, name: "Contact", url: "Contact" },
 ];
 const copyrightYear = new Date().getFullYear();
@@ -35,17 +33,17 @@ const Footer = () => {
           ))}
         </div>
         <p className="text-[12px] sm:text-[16px]">
-          Copyright &copy; {copyrightYear} Picto.
+          Copyright &copy; {copyrightYear} Ruth
         </p>
       </div>
       <p className="text-white text-center max-xs:text-[12px] max-md:text-[14px] w-full py-10">
-        Developed with ❤️ by{" "}
+        Developed by{" "}
         <a
-          href="https://www.themewagon.com"
+          href="#"
           className="underline font-bold"
           target="_blank"
         >
-          ThemeWagon
+          Tek Parlance
         </a>
       </p>
     </div>
