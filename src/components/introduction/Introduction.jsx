@@ -17,6 +17,7 @@ const Introduction = () => {
       className="flex max-lg:flex-col-reverse sm:justify-between pt-10 lg:pt-31.5 lg:mb-27.5 max-xl:gap-2 p-2 max-xxl:px-4"
       id="introduction"
     >
+      
       <div className="w-full flex flex-col justify-between max-lg:text-center">
         <div className="pt-13 me-31.5 w-full lg:w-auto transition-all duration-500">
           <p className="text-3xl xxs:text-4xl sm:max-xl:text-5xl xl:text-6xl font-semibold w-full">
@@ -68,10 +69,10 @@ const Introduction = () => {
         className={`max-w-134 w-full h-full max-lg:mx-auto aspect-[536/636] relative`}
       >
         <img
-          className={`shadow-2xl shadow-gray-200 w-full h-full absolute bottom-0 object-cover bg-white rounded-3xl`}
+          className={`shadow-2xl shadow-gray-200 w-full h-full absolute bottom-0 object-cover bg-white rounded-3xl border-b-8 border-purple-300`}
           // src={person}
           src={`../../assets/images/${user.profile.image}`} 
-          alt="person" style={{width:'500px', }}
+          alt="person" style={{width:'500px',}}
         />
       </div>
     </div>

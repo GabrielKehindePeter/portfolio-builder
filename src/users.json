@@ -28,17 +28,17 @@
     "skills": [
       {
         "id": 1,
-        "title": "UI Designer",
+        "title": "Development",
         "description": "Design meets function in every pixel."
       },
       {
         "id": 2,
-        "title": "Analyzer",
+        "title": "DevOps",
         "description": "Crafting clean, thoughtful interfaces."
       },
       {
         "id": 3,
-        "title": "UI/UX Designer",
+        "title": "Database Management",
         "description": "Crafting clean, thoughtful interfaces."
       },
       {
@@ -60,7 +60,7 @@
       {
         "id": 2,
         "title": "UI/UX Designer",
-        "company": "XYZ Company",
+        "company": "TellyScreen",
         "startDate": "2020-12",
         "endDate": "2024-10",
         "description": "Worked as a UI/UX designer."
